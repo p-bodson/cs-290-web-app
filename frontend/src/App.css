@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: darkgray;
+  color: whitesmoke;
+  padding: 0.5vmax;
+  margin: 0;
+}
+
+select {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+  color: black;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: khaki;
+}
+
+h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: lightblue;
+}
+caption {
+  color: blanchedalmond;
+  border: 0.1em;
+}
+
+tr {
+  color: blanchedalmond;
+  border: 0.1em;
+}
+
+th {
+  color: blanchedalmond;
+  border: 0.2em;
+  border-bottom-style: solid;
+  padding: 0.5em 2em;
+}
+
+td {
+  color: blanchedalmond;
+  border: 0.2em;
+  border-bottom-style:solid;
+  border-color:black;
+  padding: 0.5em 2em;
+  margin: 0;
+}
+
+thead {
+  color: blanchedalmond;
+  border: 0.1em;
+  background-color: olive;
+}
+
+tbody {
+  color: blanchedalmond;
+  border: 0.1em;
+  background-color: darkslategray;
+}
+
+table {
+  margin:2em;
+}
+
+fieldset {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+legend {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 0.5em;
+}
+
+label {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+input {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  padding: 0.2em;
+}
+
+button {
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-size: 1em;
+  margin-top: 1em;
+  background-color: transparent;
+  border-radius: 0.5em;
+  color: blanchedalmond;
+  border-style: solid;
+  border-color: blanchedalmond;
+}
+
+button:hover {
+  background-color: dimgray;
+}
+
+button:active {
+  background-color: olive;
+}
+
+
+.Nav {
+  background-color: dimgray;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Nav a {
+  padding: 1vh 13vw;
+}
+.Nav a:link, a:visited {
+  color:linen;
+  text-decoration: none;
+}
+
+.Nav a:hover {
+  color: peachpuff;
+ 
+}
+
+.Nav-list {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.Nav-list li {
+  flex: 1 0 auto;
+  font-size: 1.2em;
+  padding: 1vh 0;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Nav-list li:hover {
+  background-color: darkslategray;
+}
